@@ -5,7 +5,7 @@ echo 'Executing Java...<hr />';
 $output = array();
 $returnVar = 0;
 
-$result = exec('../java.sh', $output, $returnVar);
+$result = exec('./java.sh', $output, $returnVar);
 echo 'Result: <hr />';
 var_dump($result);
 echo 'Output: <hr />';
