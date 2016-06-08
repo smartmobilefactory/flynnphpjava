@@ -2,3 +2,4 @@ java/.gradle
 java/build
 
 /vendor/
+.java-version
